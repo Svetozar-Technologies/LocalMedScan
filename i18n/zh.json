@@ -1,0 +1,93 @@
+{
+    "_meta": {
+        "language": "Chinese",
+        "native_name": "\u4e2d\u6587",
+        "code": "zh",
+        "direction": "ltr"
+    },
+
+    "app.title": "LocalMedScan",
+    "app.subtitle": "\u79bb\u7ebf AI \u533b\u5b66\u7b5b\u67e5",
+
+    "disclaimer.banner": "\u8fd9\u4ec5\u662f\u7b5b\u67e5\u8f85\u52a9\u5de5\u5177\uff0c\u800c\u975e\u8bca\u65ad\u5de5\u5177\u3002\u8bf7\u59cb\u7ec8\u54a8\u8be2\u5408\u683c\u7684\u533b\u7597\u4e13\u4e1a\u4eba\u5458\u3002",
+    "disclaimer.accept_checkbox": "\u6211\u7406\u89e3\u8fd9\u4ec5\u662f\u7b5b\u67e5\u8f85\u52a9\u5de5\u5177\uff0c\u6211\u5c06\u59cb\u7ec8\u54a8\u8be2\u533b\u7597\u4e13\u4e1a\u4eba\u5458\u8fdb\u884c\u8bca\u65ad\u3002",
+
+    "sidebar.screening": "\u7b5b\u67e5",
+    "sidebar.tools": "\u5de5\u5177",
+    "sidebar.malaria": "\u759f\u75be\u68c0\u6d4b",
+    "sidebar.xray": "\u7ed3\u6838/\u80ba\u708e",
+    "sidebar.skin": "\u76ae\u80a4\u75c5\u53d8",
+    "sidebar.eye": "\u773c\u775b/\u89c6\u7f51\u819c",
+    "sidebar.history": "\u5386\u53f2",
+    "sidebar.settings": "\u8bbe\u7f6e",
+
+    "menu.file": "\u6587\u4ef6",
+    "menu.quit": "\u9000\u51fa",
+    "menu.view": "\u89c6\u56fe",
+    "menu.toggle_dark_mode": "\u5207\u6362\u6df1\u8272\u6a21\u5f0f",
+    "menu.navigate": "\u5bfc\u822a",
+
+    "malaria.title": "\u759f\u75be\u5bc4\u751f\u866b\u68c0\u6d4b",
+    "malaria.subtitle": "\u68c0\u67e5\u8840\u6db2\u6d82\u7247\u663e\u5fae\u56fe\u50cf\u4e2d\u7684\u759f\u75be\u5bc4\u751f\u866b\u3002\u4f7f\u7528\u5728NIH\u759f\u75be\u6570\u636e\u96c6\u4e0a\u8bad\u7ec3\u7684MobileNetV2\uff0c\u51c6\u786e\u7387\u8fbe95-97%\u3002",
+    "malaria.drop_text": "\u5c06\u8840\u6db2\u6d82\u7247\u56fe\u50cf\u62d6\u653e\u5230\u6b64\u5904\u6216\u70b9\u51fb\u6d4f\u89c8",
+    "malaria.analyze_button": "\u5206\u6790\u8840\u6db2\u6d82\u7247",
+    "malaria.accuracy_note": "\u6a21\u578b\u51c6\u786e\u7387\uff1a\u5728NIH\u759f\u75be\u6570\u636e\u96c6\uff0827,558\u5f20\u56fe\u50cf\uff09\u4e0a\u4e3a95-97%\u3002",
+
+    "xray.title": "\u7ed3\u6838/\u80ba\u708e\u7b5b\u67e5",
+    "xray.subtitle": "\u68c0\u67e5\u80f8\u90e8X\u5149\u56fe\u50cf\uff0c\u7b5b\u67e5\u7ed3\u6838\u3001\u80ba\u708e\u548c12\u79cd\u5176\u4ed6\u75c5\u7406\u3002",
+    "xray.drop_text": "\u5c06\u80f8\u90e8X\u5149\u56fe\u50cf\u62d6\u653e\u5230\u6b64\u5904\u6216\u70b9\u51fb\u6d4f\u89c8",
+    "xray.analyze_button": "\u5206\u6790X\u5149\u7247",
+    "xray.confidence_threshold": "\u7f6e\u4fe1\u9608\u503c",
+    "xray.generate_heatmap": "\u751f\u6210\u70ed\u529b\u56fe",
+    "xray.no_findings": "\u672a\u53d1\u73b0\u663e\u8457\u5f02\u5e38\u3002",
+    "xray.findings_count": "\u68c0\u6d4b\u5230{count}\u79cd\u8d85\u8fc7\u9608\u503c\u7684\u60c5\u51b5",
+
+    "results.title": "\u7b5b\u67e5\u7ed3\u679c",
+    "results.overall_confidence": "\u6700\u9ad8\u7f6e\u4fe1\u5ea6",
+    "results.export_pdf": "\u5bfc\u51fa PDF",
+    "results.export_json": "\u5bfc\u51fa JSON",
+    "results.export_txt": "\u5bfc\u51fa TXT",
+    "results.analyze_another": "\u5206\u6790\u53e6\u4e00\u5f20",
+    "results.processing_time": "\u5904\u7406\u65f6\u95f4\uff1a{time}\u6beb\u79d2",
+    "results.model_used": "\u6a21\u578b\uff1a{model}",
+
+    "progress.cancel": "\u53d6\u6d88",
+
+    "history.title": "\u7b5b\u67e5\u5386\u53f2",
+    "history.subtitle": "\u6d4f\u89c8\u60a8\u7684\u5386\u53f2\u7b5b\u67e5\u3002\u6240\u6709\u6570\u636e\u5b58\u50a8\u5728\u672c\u5730\u3002",
+    "history.empty": "\u6682\u65e0\u7b5b\u67e5\u8bb0\u5f55\u3002",
+    "history.clear_all": "\u6e05\u9664\u5168\u90e8",
+    "history.clear_confirm": "\u786e\u5b9a\u8981\u5220\u9664\u6240\u6709\u7b5b\u67e5\u5386\u53f2\u5417\uff1f",
+    "history.delete": "\u5220\u9664",
+
+    "settings.title": "\u8bbe\u7f6e",
+    "settings.subtitle": "\u914d\u7f6eLocalMedScan\u504f\u597d\u3002",
+    "settings.language": "\u8bed\u8a00",
+    "settings.language_restart": "\u8bed\u8a00\u66f4\u6539\u5728\u91cd\u65b0\u542f\u52a8\u540e\u751f\u6548\u3002",
+    "settings.theme": "\u4e3b\u9898",
+    "settings.theme_light": "\u6d45\u8272",
+    "settings.theme_dark": "\u6df1\u8272",
+
+    "common.ok": "\u786e\u5b9a",
+    "common.cancel": "\u53d6\u6d88",
+    "common.error": "\u9519\u8bef",
+    "common.warning": "\u8b66\u544a",
+    "common.success": "\u6210\u529f",
+    "common.close": "\u5173\u95ed",
+
+    "onboarding.welcome_title": "\u6b22\u8fce\u4f7f\u7528 LocalMedScan",
+    "onboarding.welcome_text": "LocalMedScan\u662f\u4e00\u6b3e\u514d\u8d39\u7684\u79bb\u7ebfAI\u7b5b\u67e5\u52a9\u624b\uff0c\u6240\u6709\u5904\u7406\u5747\u5728\u672c\u5730\u8fdb\u884c\u3002",
+    "onboarding.next": "\u4e0b\u4e00\u6b65",
+    "onboarding.back": "\u4e0a\u4e00\u6b65",
+    "onboarding.finish": "\u5f00\u59cb\u4f7f\u7528",
+
+    "about.title": "\u5173\u4e8e LocalMedScan",
+    "about.description": "\u514d\u8d39\u79bb\u7ebfAI\u533b\u5b66\u56fe\u50cf\u7b5b\u67e5\u52a9\u624b\u3002",
+    "about.version": "\u7248\u672c {version}",
+    "about.org": "Svetozar Technologies",
+    "about.mission": "AI\u5e94\u5f53\u514d\u8d39\u3002AI\u5e94\u5f53\u79c1\u5bc6\u3002AI\u5e94\u5f53\u5c5e\u4e8e\u4f60\u3002",
+    "about.license": "MIT \u8bb8\u53ef\u8bc1",
+
+    "export.success": "\u62a5\u544a\u4fdd\u5b58\u6210\u529f\u3002",
+    "export.error": "\u62a5\u544a\u751f\u6210\u5931\u8d25\u3002"
+}

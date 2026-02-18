@@ -1,0 +1,93 @@
+{
+    "_meta": {
+        "language": "French",
+        "native_name": "Fran\u00e7ais",
+        "code": "fr",
+        "direction": "ltr"
+    },
+
+    "app.title": "LocalMedScan",
+    "app.subtitle": "D\u00e9pistage m\u00e9dical IA hors ligne",
+
+    "disclaimer.banner": "Ceci est un outil de d\u00e9pistage uniquement, PAS un outil de diagnostic. Consultez toujours un professionnel de sant\u00e9 qualifi\u00e9.",
+    "disclaimer.accept_checkbox": "Je comprends qu'il s'agit d'un outil de d\u00e9pistage uniquement et je consulterai toujours un professionnel de sant\u00e9 pour le diagnostic.",
+
+    "sidebar.screening": "D\u00c9PISTAGE",
+    "sidebar.tools": "OUTILS",
+    "sidebar.malaria": "Paludisme",
+    "sidebar.xray": "TB / Pneumonie",
+    "sidebar.skin": "L\u00e9sion Cutan\u00e9e",
+    "sidebar.eye": "\u0152il / R\u00e9tine",
+    "sidebar.history": "Historique",
+    "sidebar.settings": "Param\u00e8tres",
+
+    "menu.file": "Fichier",
+    "menu.quit": "Quitter",
+    "menu.view": "Affichage",
+    "menu.toggle_dark_mode": "Mode sombre",
+    "menu.navigate": "Naviguer",
+
+    "malaria.title": "D\u00e9tection des Parasites du Paludisme",
+    "malaria.subtitle": "Analysez les images de frottis sanguin pour d\u00e9tecter les parasites du paludisme. Pr\u00e9cision de 95-97% sur le jeu de donn\u00e9es NIH.",
+    "malaria.drop_text": "D\u00e9posez l'image du frottis sanguin ici ou parcourir",
+    "malaria.analyze_button": "Analyser le Frottis",
+    "malaria.accuracy_note": "Pr\u00e9cision du mod\u00e8le : 95-97% sur NIH Malaria Dataset (27 558 images).",
+
+    "xray.title": "D\u00e9pistage TB / Pneumonie",
+    "xray.subtitle": "Analysez les radiographies thoraciques pour la tuberculose, la pneumonie et 12 autres pathologies.",
+    "xray.drop_text": "D\u00e9posez la radiographie thoracique ici ou parcourir",
+    "xray.analyze_button": "Analyser la Radio",
+    "xray.confidence_threshold": "Seuil de confiance",
+    "xray.generate_heatmap": "G\u00e9n\u00e9rer la carte thermique",
+    "xray.no_findings": "Aucune anomalie significative d\u00e9tect\u00e9e.",
+    "xray.findings_count": "{count} pathologie(s) d\u00e9tect\u00e9e(s) au-dessus du seuil",
+
+    "results.title": "R\u00e9sultats du D\u00e9pistage",
+    "results.overall_confidence": "Confiance Maximale",
+    "results.export_pdf": "Exporter PDF",
+    "results.export_json": "Exporter JSON",
+    "results.export_txt": "Exporter TXT",
+    "results.analyze_another": "Analyser un Autre",
+    "results.processing_time": "Temps de traitement : {time}ms",
+    "results.model_used": "Mod\u00e8le : {model}",
+
+    "progress.cancel": "Annuler",
+
+    "history.title": "Historique des D\u00e9pistages",
+    "history.subtitle": "Consultez vos d\u00e9pistages pass\u00e9s. Toutes les donn\u00e9es sont stock\u00e9es localement.",
+    "history.empty": "Aucun d\u00e9pistage pour le moment.",
+    "history.clear_all": "Tout effacer",
+    "history.clear_confirm": "\u00cates-vous s\u00fbr de vouloir supprimer tout l'historique ?",
+    "history.delete": "Supprimer",
+
+    "settings.title": "Param\u00e8tres",
+    "settings.subtitle": "Configurez les pr\u00e9f\u00e9rences de LocalMedScan.",
+    "settings.language": "Langue",
+    "settings.language_restart": "Le changement de langue prend effet apr\u00e8s le red\u00e9marrage.",
+    "settings.theme": "Th\u00e8me",
+    "settings.theme_light": "Clair",
+    "settings.theme_dark": "Sombre",
+
+    "common.ok": "OK",
+    "common.cancel": "Annuler",
+    "common.error": "Erreur",
+    "common.warning": "Avertissement",
+    "common.success": "Succ\u00e8s",
+    "common.close": "Fermer",
+
+    "onboarding.welcome_title": "Bienvenue dans LocalMedScan",
+    "onboarding.welcome_text": "LocalMedScan est un assistant gratuit de d\u00e9pistage IA hors ligne. Tout le traitement se fait localement.",
+    "onboarding.next": "Suivant",
+    "onboarding.back": "Retour",
+    "onboarding.finish": "Commencer",
+
+    "about.title": "\u00c0 propos de LocalMedScan",
+    "about.description": "Assistant gratuit de d\u00e9pistage m\u00e9dical IA hors ligne.",
+    "about.version": "Version {version}",
+    "about.org": "Svetozar Technologies",
+    "about.mission": "L'IA doit \u00eatre gratuite. L'IA doit \u00eatre priv\u00e9e. L'IA doit \u00eatre la v\u00f4tre.",
+    "about.license": "Licence MIT",
+
+    "export.success": "Rapport enregistr\u00e9 avec succ\u00e8s.",
+    "export.error": "\u00c9chec de la g\u00e9n\u00e9ration du rapport."
+}

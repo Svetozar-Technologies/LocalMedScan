@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec.bak
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (downloaded at runtime)
+models/*.pth
+models/*.pt
+models/*.onnx
+!models/.gitkeep
+
+# Test data (large datasets)
+test_data/
+
+# Cache
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PyInstaller
+build/
+dist/

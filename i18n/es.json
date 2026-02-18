@@ -1,0 +1,93 @@
+{
+    "_meta": {
+        "language": "Spanish",
+        "native_name": "Espa\u00f1ol",
+        "code": "es",
+        "direction": "ltr"
+    },
+
+    "app.title": "LocalMedScan",
+    "app.subtitle": "An\u00e1lisis m\u00e9dico AI sin conexi\u00f3n",
+
+    "disclaimer.banner": "Esto es solo una herramienta de detecci\u00f3n, NO un instrumento de diagn\u00f3stico. Siempre consulte a un profesional de salud calificado.",
+    "disclaimer.accept_checkbox": "Entiendo que esto es solo una herramienta de detecci\u00f3n y siempre consultar\u00e9 a un profesional de salud para el diagn\u00f3stico.",
+
+    "sidebar.screening": "DETECCI\u00d3N",
+    "sidebar.tools": "HERRAMIENTAS",
+    "sidebar.malaria": "Malaria",
+    "sidebar.xray": "TB / Neumon\u00eda",
+    "sidebar.skin": "Lesi\u00f3n Cut\u00e1nea",
+    "sidebar.eye": "Ojo / Retina",
+    "sidebar.history": "Historial",
+    "sidebar.settings": "Configuraci\u00f3n",
+
+    "menu.file": "Archivo",
+    "menu.quit": "Salir",
+    "menu.view": "Vista",
+    "menu.toggle_dark_mode": "Modo oscuro",
+    "menu.navigate": "Navegar",
+
+    "malaria.title": "Detecci\u00f3n de Par\u00e1sitos de Malaria",
+    "malaria.subtitle": "Analice im\u00e1genes de frotis de sangre para detectar par\u00e1sitos de malaria. Precisi\u00f3n del 95-97% en el conjunto de datos NIH.",
+    "malaria.drop_text": "Arrastre la imagen del frotis de sangre aqu\u00ed o haga clic para buscar",
+    "malaria.analyze_button": "Analizar Frotis",
+    "malaria.accuracy_note": "Precisi\u00f3n del modelo: 95-97% en el NIH Malaria Dataset (27.558 im\u00e1genes).",
+
+    "xray.title": "Detecci\u00f3n de TB / Neumon\u00eda",
+    "xray.subtitle": "Analice radiograf\u00edas de t\u00f3rax para tuberculosis, neumon\u00eda y 12 condiciones m\u00e1s.",
+    "xray.drop_text": "Arrastre la radiograf\u00eda de t\u00f3rax aqu\u00ed o haga clic para buscar",
+    "xray.analyze_button": "Analizar Radiograf\u00eda",
+    "xray.confidence_threshold": "Umbral de confianza",
+    "xray.generate_heatmap": "Generar mapa de calor",
+    "xray.no_findings": "No se detectaron hallazgos significativos.",
+    "xray.findings_count": "{count} condici\u00f3n(es) detectada(s) sobre el umbral",
+
+    "results.title": "Resultados del An\u00e1lisis",
+    "results.overall_confidence": "Confianza M\u00e1xima",
+    "results.export_pdf": "Exportar PDF",
+    "results.export_json": "Exportar JSON",
+    "results.export_txt": "Exportar TXT",
+    "results.analyze_another": "Analizar Otro",
+    "results.processing_time": "Tiempo de procesamiento: {time}ms",
+    "results.model_used": "Modelo: {model}",
+
+    "progress.cancel": "Cancelar",
+
+    "history.title": "Historial de An\u00e1lisis",
+    "history.subtitle": "Revise sus an\u00e1lisis anteriores. Todos los datos se almacenan localmente.",
+    "history.empty": "A\u00fan no hay an\u00e1lisis.",
+    "history.clear_all": "Borrar todo",
+    "history.clear_confirm": "\u00bfEst\u00e1 seguro de que desea eliminar todo el historial?",
+    "history.delete": "Eliminar",
+
+    "settings.title": "Configuraci\u00f3n",
+    "settings.subtitle": "Configure las preferencias de LocalMedScan.",
+    "settings.language": "Idioma",
+    "settings.language_restart": "El cambio de idioma se aplica tras reiniciar.",
+    "settings.theme": "Tema",
+    "settings.theme_light": "Claro",
+    "settings.theme_dark": "Oscuro",
+
+    "common.ok": "Aceptar",
+    "common.cancel": "Cancelar",
+    "common.error": "Error",
+    "common.warning": "Advertencia",
+    "common.success": "\u00c9xito",
+    "common.close": "Cerrar",
+
+    "onboarding.welcome_title": "Bienvenido a LocalMedScan",
+    "onboarding.welcome_text": "LocalMedScan es un asistente gratuito de detecci\u00f3n AI sin conexi\u00f3n. Todo el procesamiento se realiza localmente.",
+    "onboarding.next": "Siguiente",
+    "onboarding.back": "Atr\u00e1s",
+    "onboarding.finish": "Comenzar",
+
+    "about.title": "Acerca de LocalMedScan",
+    "about.description": "Asistente gratuito de an\u00e1lisis m\u00e9dico AI sin conexi\u00f3n.",
+    "about.version": "Versi\u00f3n {version}",
+    "about.org": "Svetozar Technologies",
+    "about.mission": "La IA debe ser gratuita. La IA debe ser privada. La IA debe ser tuya.",
+    "about.license": "Licencia MIT",
+
+    "export.success": "Informe guardado correctamente.",
+    "export.error": "Error al generar el informe."
+}
