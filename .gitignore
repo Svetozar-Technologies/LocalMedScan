@@ -28,6 +28,9 @@ models/*.onnx
 # Test data (large datasets)
 test_data/
 
+# TensorBoard logs
+runs/
+
 # Cache
 *.pyc
 .pytest_cache/
