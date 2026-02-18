@@ -29,7 +29,7 @@ from core.utils import (
 class MalariaAnalyzer:
     """Analyzes blood smear images for malaria parasites."""
 
-    MODEL_NAME = "malaria-mobilenetv2"
+    MODEL_NAME = "malaria-plasmosenet"
     CLASSES = ["Parasitized", "Uninfected"]
 
     _model = None  # Class-level cache
@@ -134,16 +134,14 @@ class MalariaAnalyzer:
             )
 
     def _load_model(self):
-        """Load or return cached MobileNetV2 model."""
+        """Load or return cached PlasmoSENet model."""
         if MalariaAnalyzer._model is not None:
             return MalariaAnalyzer._model
 
         import torch
-        import torchvision.models as models
+        from core.plasmosenet import PlasmoSENet
 
-        model = models.mobilenet_v2(weights=None)
-        # Replace classifier for binary classification
-        model.classifier[1] = torch.nn.Linear(model.last_channel, 2)
+        model = PlasmoSENet(num_classes=2, drop_path_rate=0.0)
 
         # Load trained weights if available
         manager = get_model_manager()
@@ -152,12 +150,6 @@ class MalariaAnalyzer:
         if model_path.exists():
             state_dict = torch.load(str(model_path), map_location="cpu", weights_only=True)
             model.load_state_dict(state_dict)
-        else:
-            # Use pretrained ImageNet weights as baseline
-            # In production, users should download fine-tuned weights
-            pretrained = models.mobilenet_v2(weights=models.MobileNet_V2_Weights.DEFAULT)
-            pretrained.classifier[1] = torch.nn.Linear(pretrained.last_channel, 2)
-            model = pretrained
 
         model.eval()
         MalariaAnalyzer._model = model
@@ -172,7 +164,7 @@ class MalariaAnalyzer:
             from PIL import Image
             import cv2
 
-            # Target the last convolutional layer of MobileNetV2
+            # Target the last convolutional layer (head conv block)
             target_layers = [model.features[-1]]
 
             cam = GradCAM(model=model, target_layers=target_layers)

@@ -22,11 +22,20 @@ class ModelInfo:
 
 MODEL_REGISTRY: List[ModelInfo] = [
     ModelInfo(
+        name="malaria-plasmosenet",
+        display_name="PlasmoSENet (Malaria)",
+        screening_type=ScreeningType.MALARIA,
+        size_mb=42.0,
+        description="Custom PlasmoSENet with multi-scale stem and SE attention. Trained from scratch on NIH Malaria Dataset (27,558 images).",
+        auto_download=True,
+        accuracy="98-99%",
+    ),
+    ModelInfo(
         name="malaria-mobilenetv2",
         display_name="MobileNetV2 (Malaria)",
         screening_type=ScreeningType.MALARIA,
         size_mb=14.0,
-        description="Malaria parasite detection from blood smear images. Trained on NIH Malaria Dataset (27,558 images).",
+        description="MobileNetV2 fine-tuned for malaria detection. Lightweight model (14 MB).",
         auto_download=True,
         accuracy="95-97%",
     ),
